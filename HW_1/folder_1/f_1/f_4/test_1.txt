@@ -1,0 +1,4 @@
+Course: QA
+Lesson: 1 
+Topic: Terminal
+Status: Padawan
