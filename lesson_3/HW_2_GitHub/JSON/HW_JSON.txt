@@ -26,12 +26,12 @@
 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON                                              
    
   -- vim new.json 
-                          {
-                                "full name": "Belik Ivan Vladimirovich",
-                                 "age": 32,
-                                 "pets": 1,
-                                 "salary": "50 000 rub"
-                           }
+          {
+             "full name": "Belik Ivan Vladimirovich",
+                   "age": 32,
+                  "pets": 1,
+                "salary": "50 000 rub"
+          }
 
   :wq сохранить и закрыть
 
