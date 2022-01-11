@@ -1,23 +1,23 @@
- 1) Посмотреть где я                                                               -- pwd
-2) Создать папку                                                                    -- mkdir (+ name folder)
-3) Зайти в папку                                                                     -- cd (+ name folder)
-4) Создать 3 папки                                                                 -- mkdir (+ name folder) x 3 in one line
-5) Зайти в любоую папку                                                        -- cd (+ name folder)
-6) Создать 5 файлов (3 txt, 2 json)                                           -- touch (+filename + extension) x 5 in one line
-7) Создать 3 папки                                                                  -- mkdir (+ name folder) x 3 in one line 
-8) Вывести список содержимого папки                                   -- ls  (+ name folder)  ls-la (находясь в папке)
-9) Открыть любой txt файл                                                      -- vim (+filename) 
-10) Написать туда что-нибудь                                                 -- to push "i" to enter edit mode "INSERT"
-11) Сохранить и выйти                                                             -- to push "ESC" to exit edit mode and ":wq" save and close
-12) Выйти из папки на уровень выше                                       -- cd ..
-13) Переместить любые 2 файла                                             -- mv path from / name  path to / name
-14) Скопировать любые 2 файла                                               -- cp  path from / name  path to / name
-15) Найти файл по имени                                                          -- find -name "name*"
-16) Просмотреть содержимое в реальном времени                  -- tail -f
-17) Вывести несколько первых строк из текстового файла       -- head -n2 (+filename)   or  sed "2q" (+filename)  tail (filename) | head -2
+ 1) Посмотреть где я                                        -- pwd
+2) Создать папку                                            -- mkdir (+ name folder)
+3) Зайти в папку                                            -- cd (+ name folder)
+4) Создать 3 папки                                          -- mkdir (+ name folder) x 3 in one line
+5) Зайти в любоую папку                                     -- cd (+ name folder)
+6) Создать 5 файлов (3 txt, 2 json)                         -- touch (+filename + extension) x 5 in one line
+7) Создать 3 папки                                          -- mkdir (+ name folder) x 3 in one line 
+8) Вывести список содержимого папки                         -- ls  (+ name folder)  ls-la (находясь в папке)
+9) Открыть любой txt файл                                   -- vim (+filename) 
+10) Написать туда что-нибудь                                -- to push "i" to enter edit mode "INSERT"
+11) Сохранить и выйти                                       -- to push "ESC" to exit edit mode and ":wq" save and close
+12) Выйти из папки на уровень выше                          -- cd ..
+13) Переместить любые 2 файла                               -- mv path from / name  path to / name
+14) Скопировать любые 2 файла                               -- cp  path from / name  path to / name
+15) Найти файл по имени                                     -- find -name "name*"
+16) Просмотреть содержимое в реальном времени               -- tail -f
+17) Вывести несколько первых строк из текстового файла      -- head -n2 (+filename)   or  sed "2q" (+filename)  tail (filename) | head -2
 18) Вывести несколько последних строк из текстового файла   --  tail -n 2 (+filename) 
-19) Просмотреть содержимое длинного файла (команда less)   -- less (+filename) 
-20) Вывести дату и время                                                         -- date
+19) Просмотреть содержимое длинного файла (команда less)    -- less (+filename) 
+20) Вывести дату и время                                    -- date
 
 1)* curl " url "
 2)*
