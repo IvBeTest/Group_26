@@ -34,10 +34,10 @@
   -- vim new.json 
 
       {
-             "full name": "Belik Ivan Vladimirovich",
+               "full name": "Belik Ivan Vladimirovich",
                      "age": 32,
                     "pets": 1,
-                 "salary": "50 000 rub"
+                  "salary": "50 000 rub"
        }
 
     :wq сохранить и закрыть
@@ -58,10 +58,10 @@
 
           {
                      "favorite films":[ "Брат", "Брат2", "Сёстры" ],
-             "favorite TV series": "Ликвидация",
-                    "favourite dish": "Борщ",
-                  "favorite season": "Лето",
-                "country to travel": "Канада"
+                 "favorite TV series": "Ликвидация",
+                     "favourite dish": "Борщ",
+                    "favorite season": "Лето",
+                  "country to travel": "Канада"
           }
    :wq сохранить и закрыть
 
@@ -119,30 +119,30 @@
 
 {
                        "ID": 19,
-             "Summary": " Не работает оплата картой в корзине ",
+              "Summary": " Не работает оплата картой в корзине ",
          "Precondition": [
-                     {" login":"limpopo@mail.ru", "password":"zaq123", "номер карты":"4444555577779999", "срок действия":"10.23", "ФИО":" Иванов Иван Иванович", "CVV":"123"}
-                               ],
+                         {" login":"limpopo@mail.ru", "password":"zaq123", "номер карты":"4444555577779999", "срок действия":"10.23", "ФИО":" Иванов Иван Иванович", "CVV":"123"}
+                         ],
           "Description": [
-                              {" STR ":
-                               [ 
-                              {
-                                 "1":" Залогиниться www.купитрусы.ru ", 
-                                 "2":" Добавить любой товар в корзину ", 
-                                 "3":" Оформить заказ, ввести данные карты",
-                                 "4":" Кнопка 'ОПЛАТИТЬ' не реагирует на нажатие"}
-                               ]
-                               },
-      {"Actual result ":" Кнопка 'ОПЛАТИТЬ' не реагирует на нажатие"},
-  {"Expected result ":" Переход на страницу  банка-эмитента карты, получение чека. Оплата успешно завершена"}
-                               ],
+                         {" STR ":
+                         [ 
+                         {
+                                  "1":" Залогиниться www.купитрусы.ru ", 
+                                  "2":" Добавить любой товар в корзину ", 
+                                  "3":" Оформить заказ, ввести данные карты",
+                                  "4":" Кнопка 'ОПЛАТИТЬ' не реагирует на нажатие"}
+                         ]
+                         },
+     {"Actual result ":" Кнопка 'ОПЛАТИТЬ' не реагирует на нажатие"},
+   {"Expected result ":" Переход на страницу  банка-эмитента карты, получение чека. Оплата успешно завершена"}
+                         ],
            "Component": " Оплата картой VIZA ",
-                "Severity": " Critical ",
-                 "Priority": " High ",
-                   "Status": " Submitted ",
-                  "Author": " QA Engineer Belik Ivan ",
-          "Assigned To": " QA Manager ",
-                 "Version": "1.03.2", 
+            "Severity": " Critical ",
+            "Priority": " High ",
+              "Status": " Submitted ",
+              "Author": " QA Engineer Belik Ivan ",
+         "Assigned To": " QA Manager ",
+             "Version": "1.03.2", 
          "Environment": " Windows 10 Pro 19042.1415 , Google Chrome v.96.0.4664.110 "
 }
 
