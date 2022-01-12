@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <MyPreferences>
+  <MyPreferences>
       <FavoriteFilms> Брат, Брат2, Сёстры </FavoriteFilms>
       <FavoriteTvSSeries> Ликвидация </FavoriteTvSSeries>
       <FavouriteDish> Борщ </FavouriteDish>
       <FavoriteSeason> Лето </FavoriteSeason>
       <CountryToTravel> Канада </CountryToTravel>
-</MyPreferences>
+  </MyPreferences>
