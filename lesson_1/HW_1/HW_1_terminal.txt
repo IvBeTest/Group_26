@@ -19,7 +19,7 @@
 19) Просмотреть содержимое длинного файла (команда less)    -- less (+filename) 
 20) Вывести дату и время                                    -- date
 
-1)* curl " url "
+1)* curl " http://162.55.220.72:5005/terminal-hw-request "
 2)*
  #!/bin/bash
 cd script
