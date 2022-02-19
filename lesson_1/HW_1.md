@@ -44,9 +44,15 @@
 :heavy_check_mark: cd script
 
 :heavy_check_mark: mkdir f_1 f_2 f_3
+
 :heavy_check_mark: cd f_1
+
 :heavy_check_mark: touch test_1.txt test_2.txt test_3.txt test_4.json test_5.json
+
 :heavy_check_mark: mkdir f_1 f_2 f_3
+
 :heavy_check_mark: ls -la
+
 :heavy_check_mark: mv *.txt* f_1 & mv *.json* f_2
+
 :heavy_check_mark: ls -la
