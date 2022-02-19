@@ -148,14 +148,14 @@
     {"Actual result ":" Кнопка 'ОПЛАТИТЬ' не реагирует на нажатие"},
   {"Expected result ":" Переход на страницу  банка-эмитента карты, получение чека. Оплата успешно завершена"}
                          ],
-           "Component": " Оплата картой VIZA ",
-            "Severity": " Critical ",
-            "Priority": " High ",
-              "Status": " Submitted ",
-              "Author": " QA Engineer Belik Ivan ",
-         "Assigned To": " QA Manager ",
-             "Version": "1.03.2", 
-         "Environment": " Windows 10 Pro 19042.1415 , Google Chrome v.96.0.4664.110 "
+          "Component": " Оплата картой VIZA ",
+           "Severity": " Critical ",
+           "Priority": " High ",
+             "Status": " Submitted ",
+             "Author": " QA Engineer Belik Ivan ",
+        "Assigned To": " QA Manager ",
+            "Version": "1.03.2", 
+        "Environment": " Windows 10 Pro 19042.1415 , Google Chrome v.96.0.4664.110 "
 }
 ```
 16. "Сделать `Commit changes` (сохранить) изменения на веб интерфейсе"   
