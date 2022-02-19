@@ -1,7 +1,0 @@
-name: Ivan
-surname: Belik
-age: 32
-town: Krasnodar
-course: QA
-group:26
-status:PADAWAN
