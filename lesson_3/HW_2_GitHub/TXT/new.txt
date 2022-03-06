@@ -1,0 +1,6 @@
+Full name: Belik Ivan Vladimirovich
+Age: 32
+Pets: 1
+Salary: 50 000 rub
+
+

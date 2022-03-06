@@ -63,13 +63,13 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-  <MyPreferences>
-      <FavoriteFilms> Брат, Брат2, Сёстры </FavoriteFilms>
-      <FavoriteTvSSeries> Ликвидация </FavoriteTvSSeries>
-      <FavouriteDish> Борщ </FavouriteDish>
-      <FavoriteSeason> Лето </FavoriteSeason>
-      <CountryToTravel> Канада </CountryToTravel>
-  </MyPreferences>
+  <My_Preferences>
+                  <Favorite_Films> Брат, Брат2, Сёстры </Favorite_Films>
+                  <Favorite_Tv_Series> Ликвидация </Favorite_Tv_Series>
+                  <Favourite_Dish> Борщ </Favourite_Dish>
+                  <Favorite_Season> Лето </Favorite_Season>
+                  <Country_To_Travel> Канада </Country_To_Travel>
+                 </My_Preferences>
 ```
 + `:wq` сохранить и закрыть
 
@@ -79,24 +79,24 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-   <Received_Skills>
-       <SoftSkills> 
-                <a.> Коммуникативные навыки </a.>
-                <b.> Стрессоустойчивость </b.>
-                <c.> Склонность к исследовательской деятельности </c.>
-                <d.> Навыки тайм-менеджмента </d.>
-           <HardSkills>
-                <a.> Понимание процессов тестирования и разработки ПО </a.>
-                <b.> Знание методологий тестирования </b.>
-                <c.> Работа с тестовой документацией </c.>
-                <d.> Работа с Terminal </d.>
-                <e.> Работа с GitHub </e.>
-                <f.> Работа с Dev Tools </f.>
-                <g.> Программирование на Python </g.>
-                <h.> Мобильное тестирование </h.>
-           </HardSkills>
-       </SoftSkills>              
-  </Received_Skills>
+<Received_Skills>
+      <SoftSkills> 
+                    <a.> Коммуникативные навыки </a.>
+                    <b.> Стрессоустойчивость </b.>
+                    <c.> Склонность к исследовательской деятельности </c.>
+                    <d.> Навыки тайм-менеджмента </d.>
+      <HardSkills>
+                    <a.> Понимание процессов тестирования и разработки ПО </a.>
+                    <b.> Знание методологий тестирования </b.>
+                    <c.> Работа с тестовой документацией </c.>
+                    <d.> Работа с Terminal </d.>
+                    <e.> Работа с GitHub </e.>
+                    <f.> Работа с Dev Tools </f.>
+                    <g.> Программирование на Python </g.>
+                    <h.> Мобильное тестирование </h.>
+                  </HardSkills>
+                  </SoftSkills>              
+                 </Received_Skills>
 ```
 + `:wq` сохранить и закрыть
 
@@ -131,28 +131,31 @@
               <ID> 19 </ID>
          <Summary> "Не работает оплата картой в корзине"</Summary>
     <Precondition> login: limpopo@mail.ru, password: zaq123,
-                        номер карты: 4444555577779999, 
-                        срок действия: 10/23, 
-                        ФИО: Иванов Иван Иванович, CVV: 123 </Precondition>
+                   номер карты: 4444555577779999, 
+                   срок действия: 10/23, 
+                   ФИО: Иванов Иван Иванович, CVV: 123 
+                  </Precondition>
      <Description> 
-             <STR>  1 Залогиниться www.купитрусы.ru 
+             <STR> 1 Залогиниться www.купитрусы.ru 
                    2 Добавить любой товар в корзину
                    3 Оформить заказ, ввести данные карты
                    4 Нажать кнопку 'ОПЛАТИТЬ' 
-                 </STR>
+                  </STR>
     <ActualResult> Кнопка 'ОПЛАТИТЬ' не реагирует на нажатие </ActualResult>
-  <ExpectedResult> Переход на страницу  банка-эмитента карты, получение чека. Оплата успешно завершена             </ExpectedResult> 
+  <ExpectedResult> Переход на страницу  банка-эмитента карты, получение чека. Оплата успешно завершена           
+                  </ExpectedResult> 
 
-                 </Description>
-      <Component> Оплата картой VIZA </Component>
-       <Severity> Critical </Severity>
-       <Priority> High </Priority>
-         <Status> Submitted </Status>
-         <Author> QA Engineer Belik Ivan </Author> 
-    <Assigned_To> QA Manager </Assigned_To>
-        <Version> 1.03.2 </Version>
-    <Environment> Windows 10 Pro 19042.1415 , Google Chrome v.96.0.4664.110 </Environment>
-                 </Bug_Report>
+                  </Description>
+       <Component> Оплата картой VIZA </Component>
+        <Severity> Critical </Severity>
+        <Priority> High </Priority>
+          <Status> Submitted </Status>
+          <Author> QA Engineer Belik Ivan </Author> 
+     <Assigned_To> QA Manager </Assigned_To>
+         <Version> 1.03.2 </Version>
+     <Environment> Windows 10 Pro 19042.1415 , Google Chrome v.96.0.4664.110      
+                  </Environment>
+                  </Bug_Report>
 ```
 
 ### ***17. "Сделать `Commit changes` (сохранить) изменения на веб интерфейсе"***
