@@ -68,7 +68,7 @@
 
  `vim CheckLists.txt`
 
- `i`
+ `i` `(insert)`
 
 
 ```
