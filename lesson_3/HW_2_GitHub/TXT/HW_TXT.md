@@ -61,11 +61,12 @@
 
 ```
 
-  FavoriteFilms: Брат, Брат2, Сёстры
-  FavoriteTvSSeries: Ликвидация
-  FavouriteDish: Борщ 
-  FavoriteSeason: Лето
-  CountryToTravel: Канада
+  Favorite films: Брат, Брат2, Сёстры
+  Favorite TV series: Ликвидация
+  Favourite dish: Борщ
+  Favorite season: Лето
+  Country to travel: Канада
+
 
 ```
 + `:wq` сохранить и закрыть
