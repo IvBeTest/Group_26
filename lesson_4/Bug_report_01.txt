@@ -1,17 +1,17 @@
-           ID:
-      Summary:
- Precondition:
-  Description:
+                           ID:
+                      Summary:
+                 Precondition:
+                  Description:
                           STR:
 	         ActualResult:
  	       ExpectedResult:
-    Component:
-     Severity:
-     Priority:
-       Status:
-       Author:
-  Assigned_To:
-      Version:
-  Environment:
+                    Component:
+                     Severity:
+                     Priority:
+                       Status:
+                       Author:
+                  Assigned_To:
+                      Version:
+                  Environment:
  
 
